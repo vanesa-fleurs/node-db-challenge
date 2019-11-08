@@ -1,3 +1,3 @@
-const routes = require('express').Routes()
+const routes = require('express').Router()
 
 module.exports = routes;
