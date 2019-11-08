@@ -39,13 +39,14 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
+      Relational Databases are usually software that allows you to store data. Whereas, SQL (Structured Query Langauge) is the language that allows you to manipulate the data in a database.
 
 - [ ] Why do tables need a `primary key`?
-
+      Every table needs a primary key in order to have a well structured, normalized database. The primary keys become essential when dealing with relational databases since foreign keys (which refer to a primary key on an existing table) are used to create complex relationships among entities. 
 - [ ] What is the name given to a table column that references the primary key on another table.
-
+      A foreign key.
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
-
+      One would need a table that is the intermediary between the many to many relationships; that is, the intermediary table will have a many to one relashionship with both tables it is linking. This allows us to keep data repeatition at a minimum. 
 ## Minimum Viable Product
 
 Take the steps necessary to complete the project from scratch. Start by initializing your project with a `package.json` and go from there.
